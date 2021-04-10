@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+body {
+  font-family: 'Roboto', sans-serif;
+}
 
 header {
   height: 80px;
@@ -28,14 +31,16 @@ nav li {
   float: right;
 }
 nav ul li a{
+  color: gray;
   margin-top: 5px;
   text-decoration: none;
   padding: 0.5rem 1rem;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 27px;
+  padding-bottom: 33px;
 }
 nav li a:hover {
   background-color: gray;
+  color: #efefef;
 }
 
 .main {
