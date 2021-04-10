@@ -1,0 +1,44 @@
+* ¨{
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 80px;
+}
+/* NAVBAR */
+nav {
+  overflow: hidden;
+  background-color: #efefef;
+}
+nav .navlogo {
+  float: left;
+  width: 80px;
+  height: 80px;
+}
+nav ul {
+  margin-right: 75px;
+}
+nav li {
+  list-style: none;
+  /* margin-top: 25px !important; */
+  /* margin: 20px; */
+  margin-top: 25px;
+  margin-right: 20px;
+  float: right;
+}
+nav ul li a{
+  margin-top: 5px;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+nav li a:hover {
+  background-color: gray;
+}
+
+.main {
+  padding-top: .5rem;
+}
+
