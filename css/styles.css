@@ -9,7 +9,7 @@ body {
 /* NAVBAR */
 header {
   height: auto;
-  background-color: #efefef;
+  background-color: RGB(218, 183, 141);
 }
 header .menu input {
   display: none;
@@ -31,6 +31,7 @@ nav .navlogo {
   float: left;
   width: 80px;
   height: 80px;
+  display: block;
 }
 nav ul {
   margin-right: 25px;
@@ -43,20 +44,30 @@ nav li {
 }
 nav ul li a{
   position: relative;
-  color: gray;
+  color: rgba(71, 33, 2, 0.582);
+  font-weight: bold;
   text-decoration: none;
   padding: 0.5rem 1rem;
   padding-top: 30px;
   padding-bottom: 36px;
 }
 nav li a:hover {
-  background-color: gray;
+  background-color: #df7d28;
   color: #efefef;
   font-weight: bold;
 }
 
-
+/* MAIN CONTENT */
 .main {
-  padding-top: .5rem;
+  width: 100%;
+  min-width: 320px;
+  height: 80vh;
+  background-image: url("/img/15478-cafe.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: .6;
 }
+
+
 
