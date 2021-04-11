@@ -7,12 +7,13 @@ body {
 }
 
 header {
-  height: 80px;
+  width: 100%;
 }
 /* NAVBAR */
 nav {
   overflow: hidden;
   background-color: #efefef;
+  height: 80px;
 }
 nav .navlogo {
   float: left;
@@ -24,9 +25,8 @@ nav ul {
 }
 nav li {
   list-style: none;
-  /* margin-top: 25px !important; */
-  /* margin: 20px; */
-  margin-top: 25px;
+  display: block;
+  margin-top: 15px;
   margin-right: 20px;
   float: right;
 }
@@ -35,8 +35,8 @@ nav ul li a{
   margin-top: 5px;
   text-decoration: none;
   padding: 0.5rem 1rem;
-  padding-top: 27px;
-  padding-bottom: 33px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 nav li a:hover {
   background-color: gray;
