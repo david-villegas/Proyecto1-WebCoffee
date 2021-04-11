@@ -1,4 +1,4 @@
-* ¨{
+* {
   margin: 0;
   padding: 0;
 }
@@ -6,13 +6,25 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-header {
-  width: 100%;
-}
 /* NAVBAR */
+header {
+  height: auto;
+  background-color: #efefef;
+}
+header .menu input {
+  display: none;
+}
+.menu label #open,
+.menu label #close {
+  font-size: 30px;
+  float:right;
+  line-height: 80px;
+  margin-right: 30px;
+  cursor: pointer;
+  display: none;
+}
 nav {
   overflow: hidden;
-  background-color: #efefef;
   height: 80px;
 }
 nav .navlogo {
@@ -21,27 +33,28 @@ nav .navlogo {
   height: 80px;
 }
 nav ul {
-  margin-right: 75px;
-}
-nav li {
+  margin-right: 25px;
   list-style: none;
-  display: block;
-  margin-top: 15px;
-  margin-right: 20px;
   float: right;
 }
+nav li {
+  display: inline-block;
+  margin: 30px 20px;
+}
 nav ul li a{
+  position: relative;
   color: gray;
-  margin-top: 5px;
   text-decoration: none;
   padding: 0.5rem 1rem;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 30px;
+  padding-bottom: 36px;
 }
 nav li a:hover {
   background-color: gray;
   color: #efefef;
+  font-weight: bold;
 }
+
 
 .main {
   padding-top: .5rem;

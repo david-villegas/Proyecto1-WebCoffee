@@ -1,0 +1,42 @@
+@media screen and (max-width: 768px) {
+  .menu label #open {
+    display: block;
+  }
+  nav ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #efefef;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: .5s;
+    z-index: 10;
+  }
+  nav ul li {
+    display: block;
+    margin: 40px 0;
+    line-height: 30px;
+  }
+  nav ul li:hover{
+    width: 100%;
+    background-color: gray;
+  }
+  nav li a {
+    font-size: 20px;
+  }
+  nav li a:hover {
+    background-color: transparent;
+    color: #efefef;
+    font-weight: bold;
+  }
+  #btn-menu:checked ~ nav ul {
+    left: 0;
+  }
+  #btn-menu:checked ~ label #open {
+    display: none;
+  }
+  #btn-menu:checked ~ label #close {
+    display: block;
+  }
+}
