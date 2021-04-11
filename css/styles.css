@@ -33,6 +33,13 @@ nav .navlogo {
   height: 80px;
   display: block;
 }
+nav h1{
+  display: none;
+  position: absolute;
+  margin: 15px 0 0 100px;
+  font-family: 'Parisienne', cursive;
+  font-size: 2.5rem;
+}
 nav ul {
   margin-right: 25px;
   list-style: none;
