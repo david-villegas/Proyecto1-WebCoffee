@@ -12,10 +12,9 @@
   nav ul {
     position: absolute;
     width: 100%;
-    /* height: 100vh; */
     background: rgba(218, 183, 141, .8);
-    top: 80px;
-    left: -100%;
+    top: -400px;
+    /* left: -100%; */
     text-align: center;
     transition: .5s;
     z-index: 10;
@@ -38,8 +37,8 @@
     font-weight: bold;
   }
   #btn-menu:checked ~ nav ul {
-    /* top: 80px; */
-    left: 0;
+    top: 80px;
+    /* left: 0; */
   }
   #btn-menu:checked ~ label #open {
     display: none;
@@ -50,7 +49,6 @@
 
   /* CONTENT */
   .main-content .main-title {
-    padding-top: 200px;
     font-size: 3.5rem;
     transition: .3s;
   }

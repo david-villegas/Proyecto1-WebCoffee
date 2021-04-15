@@ -74,6 +74,10 @@ nav li a:hover {
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.main::before {
+  content: "";
+  position: absolute;
   opacity: .6;
 }
 .main-content {
@@ -89,4 +93,5 @@ nav li a:hover {
   transition: .3s;
 }
 
+/* PRODUCTS */
 
