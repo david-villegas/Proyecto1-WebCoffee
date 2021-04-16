@@ -106,8 +106,19 @@ nav li a:hover {
   width: 450px;
   margin: 10px;
   text-align: center;
-  line-height: 75px;
+  line-height: 45px;
   font-size: 30px;
+}
+.container .item:nth-child(3) {
+  margin-top: 50px;
+}
+.container .item:nth-child(4) {
+  margin-top: 50px;
+}
+.container .item p {
+  font-size: 1rem;
+  line-height: 25px;
+  text-align: justify;
 }
 .container .item img{
   max-width: 100%;
