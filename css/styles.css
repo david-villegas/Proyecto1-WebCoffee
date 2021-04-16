@@ -4,12 +4,13 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: RGB(218, 183, 141);
 }
 
 /* NAVBAR */
 header {
   height: auto;
-  background-color: RGB(218, 183, 141);
+  /* background-color: RGB(218, 183, 141); */
 }
 header .menu input {
   display: none;
